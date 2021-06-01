@@ -6,7 +6,22 @@
     color: white;
     padding: 15px;
   }
-  
+
+  .nav-right{
+    float: right;
+    
+  }
+  .nav-right a{
+    color: rgb(80, 49, 63);
+  }
+
+  .nav-right a:visited{
+    color: chartreuse;
+  }
+.nav-right a:hover{
+  color: crimson;
+}
+
   .column {
     float: left;
     padding: 15px;
