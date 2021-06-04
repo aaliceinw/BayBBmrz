@@ -1,0 +1,45 @@
+.sidenav {
+height: 100%;
+width:0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: rgb(46, 42, 36);
+padding-top: 120px;
+transition: 0.5s;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-transform: none;
+    font-size: 20px;
+    color: darkblue;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover{ 
+    color: rgb(175, 233, 39);
+}
+
+.sidenav a:visited{
+    color:crimson
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size:36px;
+    margin-left: 50px; 
+}
+
+.btn-group button {
+    background-color: #04AA6D; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+  }
