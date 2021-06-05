@@ -1,19 +1,38 @@
+.header, .footer{
+    background-color: rgba(100, 30, 30, 0.555);
+    color: antiquewhite;
+    padding: 15px;
+}
+
+.nav-right{
+    float: right;
+}
+.nav-right a{
+    color: rgb(80, 49, 63);
+}
+.nav-right a:visited{
+    color: chartreuse;
+}
+.nav-right a:hover{
+    color: crimson;
+}
+
 .sidenav {
-height: 100%;
-width:0;
-position: fixed;
-z-index: 1;
-top: 0;
-left: 0;
-background-color: rgb(46, 42, 36);
-padding-top: 120px;
-transition: 0.5s;
+    height: 40%;
+    width: 12%;
+    position: absolute;
+    z-index: -1;
+    top: 120px;
+    left: 0;
+    background-color: rgb(88, 41, 58);
+    padding-top: 80px;
+    transition: 0.5s;
 }
 .sidenav a{
     padding: 8px 8px 8px 32px;
     text-transform: none;
     font-size: 20px;
-    color: darkblue;
+    color: rgb(197, 197, 211);
     display: block;
     transition: 0.3s;
 }
@@ -23,23 +42,29 @@ transition: 0.5s;
 }
 
 .sidenav a:visited{
-    color:crimson
+    color:rgb(150, 220, 20)
 }
 
 .sidenav .closebtn {
     position: absolute;
+    float: left;
     top: 0;
     right: 25px;
     font-size:36px;
     margin-left: 50px; 
+  
 }
 
-.btn-group button {
-    background-color: #04AA6D; /* Green background */
-    border: 1px solid green; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 50%; /* Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
+.content{
+    content: "";
+    height: 350px;
+    clear: both;
+    display: contents;
+   
   }
+.frame{
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
