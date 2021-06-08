@@ -1,0 +1,24 @@
+// Defining a function to display error message
+function printError(elemId, hintMsg) {
+    document.getElementById(elemId).innerHTML = hintMsg;
+}
+
+// Defining a function to validate form 
+function validateForm() {
+    // Retrieving the values of form elements 
+    var firstname = document.contactForm.firstname.value;
+    var lastname = document.contactForm.lastname.value;
+    var pw1= document.contactForm.pw1.value;
+    var pw2= document.contactForm.pw2.value
+    var certificate = document.contactForm.certificate.value;
+    var country = document.contactForm.country.value;
+    var male = document.contactForm.gender1.value;
+    var female = document.contactForm.gender2.value;
+    var courses = [];
+    var checkboxes = document.getElementsByName("Course]");
+    for(var i=0; i < checkboxes.length; i++) {
+        if(checkboxes[i].checked) {
+            // Populate hobbies array with selected values
+            courses.push(checkboxes[i].value);
+        }
+    }
