@@ -95,7 +95,7 @@ function validateForm() {
     }
     
     // Prevent the form from being submitted if there are any errors
-    if((firstnameErr || lastnameErr || pw1Err || pw2Err || certificateErr || countryErr || genderErr|| coursesErr) == true) {
+    if((firstnameErr || lastnameErr || pw1Err || certificateErr || countryErr || genderErr|| coursesErr) == true) {
        return false;
     } else {
         // Creating a string from input data for preview
@@ -103,7 +103,6 @@ function validateForm() {
                           "First Name: " + firstname + "\n" +
                           "Last Name: " + lastname+ "\n" +
                           "Password: " + pw1 + "\n" +
-                          "Confirm Password: " + pw2 + "\n" +
                           "Certificate" + certificate + "\n" +
                           "Country: " + country + "\n" +
                           "Gender: " + gender + "\n" +
