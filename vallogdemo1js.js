@@ -27,7 +27,7 @@ function validateForm() {
  
     // Validate first name
  if(fname == "") {
-    printError("nameErr", "Please enter your first name");
+    printError("fnameErr", "Please enter your first name");
 } else {
     var regex = /^[a-zA-Z\s]+$/;                
     if(regex.test(fname) === false) {

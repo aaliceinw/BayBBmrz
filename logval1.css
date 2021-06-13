@@ -9,12 +9,12 @@ h2 {
 }
 form {
     width: 320px;
-    background: rgb(99, 50, 50);
+    background: bisque;
     
     padding: 15px 40px 40px;
-    border: 1px solid #ccc;
+    border: 2px solid rgba(100, 30, 30, 0.555);
     margin: 50px auto 0;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 label {
     display: block;
@@ -25,7 +25,7 @@ label i {
     font-size: 80%;
 }
 input, select {
-    border: 1px solid #ccc;
+    border: 2px solid rgba(100, 30, 30, 0.555);
     padding: 10px;
     display: block;
     width: 100%;
@@ -44,6 +44,7 @@ input, select {
     display: inline-block;
     width: auto;
     padding-right: 15px;
+    ;
 }
 .error {
     color: red;
@@ -52,9 +53,9 @@ input, select {
 input[type="submit"] {
     font-size: 110%;
     font-weight: 100;
-    background: #006dcc;
-    border-color: #016BC1;
-    box-shadow: 0 3px 0 #0165b6;
+    background: rgba(100, 30, 30, 0.555);
+    border-color: bisque;
+    box-shadow: 0 3px 0 rgba(100, 30, 30, 0.555)6;
     color: #fff;
     margin-top: 10px;
     cursor: pointer;
